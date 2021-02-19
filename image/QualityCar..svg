@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="271" height="74" viewBox="0 0 271 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1f36;
+        font-size: 56px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-2 {
+        fill: #f2f2fc;
+      }
+    </style>
+  </defs>
+  <text id="QualityCar." class="cls-1" transform="translate(0 60)"><tspan x="0" y="0">Quality</tspan><tspan class="cls-2" y="0">Car.</tspan></text>
+</svg>

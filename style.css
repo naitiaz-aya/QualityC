@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%; 
+    margin: auto;
+    background-color: #75798B;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 76px;
+    z-index: 1;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/Platinum-Luxury-Car-rental-in-dubai.jpg);
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position:center center ;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:#F2F2FC ;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:'Segoe UI';
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    font-size:27px ;
+    color:#1D1F36;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+.logo a{
+    width:400px;
+    float: left;
+    height:auto;
+    font-size: 35px;
+    font-weight: 900;
+    color: #1D1F36;
+}
+.logo a span{
+    font-size: 35px;
+    font-weight: 900;
+    color: #F2F2FC;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin:20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #F2F2FC;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text h1 span{
+    color:#75798B;
+}
+button{
+    padding: 2% 3%;
+    font-weight:700;
+    text-transform:uppercase;
+    border: 0;
+    color: #1D1F36;
+    background-color: #F2F2FC;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    border-radius: 30px;
+}
+button:hover{
+    background-color: #75798B;
+    color: #1D1F36;
+}
+.container{
+    padding: 0 100px 0 100px;
+    
+}
+.about{
+    height: auto;
+}
+.about h1{
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1;
+}
+.about-me-info{
+    max-width: 900px;
+    background-color:#75798B;
+    font-family:'Segoe UI';
+    box-shadow: 0 0 1.2rem rgba(255,255,255,.25);
+    padding: 25px;
+    position: relative;
+    top:-36px ;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+}
+.about-me-info p{
+    color: #F2F2FC;
+    font-size: 1.3rem;
+}
+
+.about-me-info p:nth-child(2),
+.about-me-info p:last-child{
+     margin:30px   
+}
+.about img{
+    width: 750px;
+    position: relative;
+    top: -36px;
+    left: 900px;
+    transform:translateX(100px);
+}
+.gallery {
+    height: 105vh;
+    padding: 0 100px 0 100px;
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1;
+}
+.cotainer{
+    top:-60px ;
+    width: 1350px;
+    min-height: 50px;
+    background:#1D1F36 ;
+    margin: -760px auto 0;
+    margin-bottom: 92px;
+    display: flex;
+    border: #F2F2FC ;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+.cotainer .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #F2F2FC;
+    margin: 17px;
+    box-sizing: border-box;
+    border: #F2F2FC ;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+.cotainer .box .imgBox{
+    box-sizing: border-box;
+    border: #F2F2FC ;
+    position: relative;
+    overflow: hidden;
+}
+.cotainer .box .imgBox img{
+    max-width: 100%;
+}
+.cotainer .box:hover .imgBox img{
+    transform: scale(1.2);
+}
+.cotainer .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #1d1f364f;
+    transform: scaleY(0);
+}
+.cotainer .box:hover .details{
+    transform: scaleY(1);
+}
+.cotainer .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+}
+.cotainer .box .details .content h2{
+    text-align: center;
+    padding: 0;
+    font-size: 35px;
+    color:#F2F2FC;
+}
+.body{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/slider1.jpg)no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .contact-info{
+    color:#F2F2FC ;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family:'Segoe UI';
+}
+.contact-section .contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+
+}
+.contact-info , .contact-form {
+    flex: 1;
+}
+
+.contactus{
+    height: 17vh;
+    padding: 0 100px 0 100px;
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1;
+}
+.contact-form .text-box{
+    font-family: 'Segoe UI';
+    background: #1D1F36;
+    color: #F2F2FC;
+    border: none;
+    width:  calc(50%-10px);
+    height:50px;
+    padding:12px;
+    font-size:15px;
+    border-radius:5px;
+    box-shadow:0 1px 1px rgba(0,0,0,.1);
+    margin-bottom:20px;
+    opacity:.9;
+}
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form textarea{
+    font-family: 'Segoe UI';
+    background: #1D1F36;
+    color: #F2F2FC;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow:0 1px 1px rgba(0,0,0,.1);
+    opacity:.9;
+}
+.contact-form .send-btn {
+    float:right;
+    background:#F2F2FC;
+    color: #1D1F36;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+.contact-form .send-btn:hover{
+    background:#1D1F36;
+    color: #F2F2FC;
+}
+footer{
+    background: #1D1F36;
+    padding: 20px 23px;
+    
+}
+footer span{
+    color: #F2F2FC;
+    align-items: center;
+}
+footer span a{
+    color:#75798B;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}

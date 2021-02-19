@@ -1,0 +1,75 @@
+@media screen and (max-width :950px){
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-info, .contact-form{
+        margin: 30px 50px;
+    }
+    .contactus{
+        font-size: 60px;
+    }
+    .contact-form .text-box{
+        width: 100%;
+    }
+    .cotainer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width:auto;
+        margin:20px;
+    }
+    .about{
+        margin-bottom: 243px;
+    }
+    .about img{
+        width: 300px;
+        top: 30px;
+        left:auto;
+        margin-left: -60px;
+    }
+    .about-me-info p{
+        font-size: 18px;
+    }
+    .about-me-info p:last-child{
+        margin:0;
+    }
+    .about-me-info{
+        max-width: 500px;
+        height: auto;
+        top: 0;
+    }
+    .about h1{
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+    .gallery {
+        font-size:60px;
+        height: auto;
+    }
+    .row{
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .description, .form{
+        width: 100%;
+        padding: 5%;
+    }
+    .reservation{
+        box-shadow: 0px 5px 13px -3px rgba(0,0,0,.7);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .form h2{
+        font-size: 40px;
+    } 
+    .res{
+        margin-left: -10px;
+        height: 30vh;
+        padding: 0 100px 0 40px;
+        font-size: 60px;
+        opacity: .1;
+        padding-top: 100px;
+    }
+}
+

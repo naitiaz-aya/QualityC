@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%; 
+    margin: auto;
+    background-color: #75798B;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 76px;
+    z-index: 1;
+}
+header{
+    height: auto;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position:center center ;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:#F2F2FC ;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:'Segoe UI';
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    font-size:27px ;
+    color:#1D1F36;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+.logo a{
+    width:400px;
+    float: left;
+    height:auto;
+    font-size: 35px;
+    font-weight: 900;
+    color: #1D1F36;
+}
+.logo a span{
+    font-size: 35px;
+    font-weight: 900;
+    color: #F2F2FC;
+}
+.gallery{
+    height: 30vh;
+    padding: 0 100px 0 100px;
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1;
+    padding-top: 80px;
+}
+img{
+    
+    border-radius: 10px;
+    width: 250px ;
+    height: 250px;
+    margin-bottom: 5px;
+}
+img:hover{
+    box-shadow: 0px 3px 17px -4px rgba(0,0, 0, .7);
+}
+h5{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    color: #1D1F36;
+}
+.py-3{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Segoe UI';
+    color: #F2F2FC;
+    background-color: #1D1F36;
+}
+.col-lg-4:hover{
+ 
+   text-decoration: underline;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    margin: 16px;
+
+}
+small{
+    font-family: 'Segoe UI';
+    color: #75798B;
+    font-weight: 700;
+}
+footer{
+    background: #1D1F36;
+    padding: 20px 23px;
+    
+}
+footer span{
+    color: #F2F2FC;
+    align-items: center;
+}
+footer span a{
+    color:#75798B;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
