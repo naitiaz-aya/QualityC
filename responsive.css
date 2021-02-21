@@ -23,7 +23,7 @@
         margin: 30px 50px;
     }
     .contactus{
-        padding-top: 100px;
+        padding-top: 0;
         font-size: 60px;
     }
     .contact-form .text-box{
@@ -46,17 +46,10 @@
         margin-bottom: 243px;
     }
     .about img{
-        width: 300px;
+        width: 275px;
         top: 30px;
         left:auto;
-        margin-left: -60px;
-    }
-    .about img .imageabout{
-        width: 210%;
-        top: 100px;
-        height: 165px;
-        left:auto;
-        margin-left: -195px;
+        margin-left: -100px;
     }
     
     .about-me-info p{
