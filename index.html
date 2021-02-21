@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="image/QualityCar..svg">
     <meta name="description" content="rent car">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -20,7 +21,7 @@
             <div class="logo">
                 <a href="index.html">Quality<span>Car.</span></a>
             </div>
-            <ul class="nav-area">
+            <ul class="nav-area" id="myTopnav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -32,7 +33,7 @@
             <h1>
                 Quality never goes out of <span> style</span>
             </h1>
-            <button>
+            <button class="resbt">
                <a href="reservation.html">RESERVE NOW </a> 
             </button>
         </div>
@@ -40,14 +41,14 @@
     <div class="container about">
         <h1>About Us</h1>
         <div class="about-me-info">
-            <p>Rental companies usually offer drivers additional coverage options for a price. If you buy their
+            <p> Rental companies usually offer drivers additional coverage options for a price. If you buy their
                 coverage, they say you can minimize your liability while driving their rental car. However, you may be
                 covered already through your own auto or homeowner's policies. Read your insurance policies for
                 specifics, and call your insurers if you're uncertain about the coverage. If you're traveling on
                 business, you may be covered under your employer’s insurance. Some credit card companies and motor clubs
                 provide members with free rental protection when you use their cards to pay for rentals.</p>
         </div>
-        <img src="image/Luxury-car-rental-1024x284.png" alt="about">
+        <img class="imageabout" src="image/Luxury-car-rental-1024x284.png" alt="about">
     </div>
     <h1 class="gallery">Gallery</h1>
     <div class="cotainer">
@@ -156,7 +157,16 @@
     <footer>
         <span>Created By <a href="#">Youcode</a> |<span class="far fa-copyright"></span>2020 All rights reserved.</span>
     </footer>
-    <script src="script.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav-area") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav-area";
+          }
+        }
+        </script>
 </body>
 
 </html>

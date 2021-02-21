@@ -4,6 +4,7 @@ var gear_box = document.querySelector("#gear-box")
 var chooseDays = document.querySelector("#chooseDays")
 var lastPrice = document.querySelector(".form h2")
 
+
 vNames = [
     "",
     "Motorcycle",

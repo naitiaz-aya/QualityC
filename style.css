@@ -40,6 +40,10 @@ header{
     font-family:'Segoe UI';
     font-size: 20px;
 }
+.nav-area .icon {
+    display: none;
+  }
+  
 .nav-area li a:hover{
     font-size:27px ;
     color:#1D1F36;

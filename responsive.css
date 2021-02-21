@@ -1,4 +1,21 @@
 @media screen and (max-width :950px){
+    .logo a{
+        width:200px;
+
+    }
+    .nav-area a:not(:first-child) {display: none;}
+    .nav-area a.icon {
+      float: right;
+      display: block;
+    }
+    .nav-area.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    .wrapper{
+        height: 95px;
+    }
     .contact-section{
         flex-direction: column;
     }
@@ -6,16 +23,24 @@
         margin: 30px 50px;
     }
     .contactus{
+        padding-top: 100px;
         font-size: 60px;
     }
     .contact-form .text-box{
         width: 100%;
+    }
+    .button .resbt{
+        margin-top: 70px;
     }
     .cotainer{
         flex-direction: column;
         flex-wrap: nowrap;
         width:auto;
         margin:20px;
+    }
+    .welcome-text{
+        width: 100%;
+        margin:40% 0;
     }
     .about{
         margin-bottom: 243px;
@@ -26,6 +51,14 @@
         left:auto;
         margin-left: -60px;
     }
+    .about img .imageabout{
+        width: 210%;
+        top: 100px;
+        height: 165px;
+        left:auto;
+        margin-left: -195px;
+    }
+    
     .about-me-info p{
         font-size: 18px;
     }
@@ -33,7 +66,7 @@
         margin:0;
     }
     .about-me-info{
-        max-width: 500px;
+        width: 320px;
         height: auto;
         top: 0;
     }
@@ -42,6 +75,7 @@
         padding-bottom: 30px;
     }
     .gallery {
+        padding-top: 100px;
         font-size:60px;
         height: auto;
     }
